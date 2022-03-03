@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: Android;
-    src: url('/0DESAFIOS/df10-projeto/fontes/idroid.otf') format('opentype');
+    src: url('/desafios/arquivos-desafios/df10-projeto/fontes/idroid.otf') format('opentype');
 }
 
 /* 
@@ -156,18 +156,27 @@ div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-
+    padding-bottom: 57%;
     position: relative;
 }
 
 div.video > iframe {
     position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
     background-color: var(--cor1);
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
+}
+
+aside p {
+    margin: 20px;
+    padding-bottom: 10px;
 }
 
 aside h3 {
