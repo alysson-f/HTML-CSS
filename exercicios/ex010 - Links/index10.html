@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com links</title>
 </head>
-<body>
-    <h1>Usando links externos</h1>  <!-- TARGET BLANK INDICA ABRIR LINK EM UMA NOVA ABA-->
-    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
-    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+<body>                  
+    <h1>Usando links externos</h1> <!-- <a href="url"> PARA ADICIONAR LINKS -->
+    <p>Você pode acessar o meu site no <a href="https://www.instagram.com/4lyssonf/" target="_blank" rel="external">Instagram</a></p> <!-- target="blank" INDICA ABRIR LINK EM UMA NOVA ABA -->
+    <p>Você também pode acessar o meu <a href="https://alysson-f.github.io/HTML-CSS/" target="_blank" rel="external">GitHub</a></p> <!-- rel="external" INDICA QUE O CONTEUDO DO LINK NAO FAZ PARTE DO DOCUMENTO ATUAL-->
 
 
-    <h1>Usando links internos</h1>  <!-- TARGET SELF CARREGA O LINK NA MESMA ABA-->
+    <h1>Usando links internos</h1>  <!-- target="self" INDICA CARREGAR O LINK NA MESMA ABA-->
     <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="ex10-pag2.html" rel="next" target="_self">segunda página</a></p>
     <p>Você também pode acessar a nossa <a href="noticias/ex10-pag3.html" rel="next" target="_self">página de notícias</a></p>
 
@@ -20,6 +20,7 @@
     <ul>
         <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
         <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+        <li><a href="livro/meulivro.pdf" download="meu livro">Baixar livro</a></li>
     </ul>
 </body>
 </html>
