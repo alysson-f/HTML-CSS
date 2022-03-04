@@ -3,3 +3,6 @@
 
 Acesse os exercícios <a href='https://github.com/alysson-f/HTML-CSS/tree/main/exercicios'>aqui</a> <br>
 Acesse os desafios <a href='https://github.com/alysson-f/HTML-CSS/tree/main/desafios'>aqui</a>
+
+
+https://github.com/alysson-f/HTML-CSS/tree/main/exercicios
