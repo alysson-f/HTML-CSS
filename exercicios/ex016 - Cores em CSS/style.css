@@ -11,17 +11,17 @@ body {
 
 main {
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px  5px 10px rgb(17, 75, 72);
-    width: 600px;
-    padding: 10px;
-    margin: auto;
+    border-radius: 10px; /* BORDA */
+    box-shadow: 5px  5px 10px rgb(17, 75, 72);  /*ORDEM box-shadow: horizontal, vertical, desfoque, tamanho, cor */
+    width: 600px;  /* LARGURA */
+    padding: 10px; /* PREENCHIMENTO */
+    margin: auto;  /* MARGEN */
 }
 
 h1 {
     color: #0D0D0D;
-    text-align: center;
-    text-shadow: 1px 1px 0px rgb(3, 143, 236);
+    text-align: center;  /* ALINHAMENTO DO TEXTO */
+    text-shadow: 1px 1px 0px rgb(3, 143, 236); /* SOMBRA DO TEXTO */
 }
 
 h2 { 

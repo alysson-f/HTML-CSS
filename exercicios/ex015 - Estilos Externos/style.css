@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(115, 143, 180);
-    font-family: Arial, sans-serif;
-    font-size: 17px;
+    background-color: rgb(115, 143, 180); /* COR DE FUNDO */
+    font-family: Arial, sans-serif; /* FONTE DO TEXTO */
+    font-size: 17px; /* TAMANHO DA FONTE */
 }
 
-h1 {
+h1 {  /* ESTILO DO H1 EM TODO OS H1 */
     color:rgb(13, 10, 218);
     background-color: rgb(2, 2, 2);
 }
 
-h2 {
+h2 { /* ESTILO DO H2 EM TODOS H2 */
     color: rgb(24, 37, 105);
 }
 
-p {
+p { /* ESTILO DO PARÁGRAFO EM TODOS OS CONTEÚDOS  */
     text-align: justify;
 }
