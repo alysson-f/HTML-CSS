@@ -4,39 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links</title>
+    <title>Personalizando Links</title>
     <style>
         body {
             font-family: arial;
         }
 
-        a {
-            color: green;
+        a {  /* LINK */
             text-decoration: none;
             font-weight: bold;
         }
 
-        a:visited {
+        a:visited { /* APÓS VISITAR O SITE */
             color: blue;
         }
 
-        a:hover {
+        a:hover {  /* AO PASSAR O MOUSE EM CIMA */
             color: black;
             text-decoration: underline;
         }
 
-        a:active {
+        a:active {  /* AO APERTAR E SEGURO O BOTÃO DO MOUSE */
             color: yellow
         }
 
-        a::after {
+        a::after { /* ANTES DO LINK <  */ 
             content: '<';
-            text-decoration: none;
-            font-weight: normal;
             color: blue
         }
 
-        a::before {
+        a::before { /* DEPOIS DO LINK */
             content: '>';
             color: blue
         }
@@ -45,9 +42,9 @@
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li><a href="https://gustavoguanabara.github.io" target="_blank">GitHub</a></li>
-        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Youtube</a></li>
-        <li><a href="https://www.cursoemvideo.com" target="_blank">Curso em Video</a></li>
+        <li><a href="https://github.com/alysson-f">GitHub</a></li>
+        <li><a href="https://instagram.com/4lyssonf" target="_blank">Instagram</a></li>
+        <li><a href="https://alysson-f.github.io/HTML-CSS/">Página do projeto</a></li>
     </ul>
 </body>
 </html>
