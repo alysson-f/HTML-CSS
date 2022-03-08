@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(34, 34, 34);  /* COR DE FUNDO */
+    color: white;                     /* COR DA FONTE*/
+    font-family: 'Arial';               /* TIPO DA FONTE */
+    max-width: 1200px;                 /* LARGURA MAXIMA */
+    margin: auto;                     /* MARGEM */
+    padding: 30px;                    /* PREENCHIMENTO */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.titulo {
+    flex-direction: column;
+    line-height: 10px;  /* ALTURA DA LINHA */
+}
+
+li {    /* SOMENTE O ELEMENTOS DA UL */
+    display: inline-block;  /* BLOCOS EM LINHA */
+    margin: 20px;
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.5s;
+}
+
+#conta {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#conta:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;   /* MARGEM DE CIMA */
+}
+
+main h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+span {
+    color:rgb(132, 14, 201)
+}
+
+p {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+img {
+    width: 620px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bolder;
+}
+
+form [type="submit"] {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 10px;
+    height: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+}
